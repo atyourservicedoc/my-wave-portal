@@ -1,0 +1,193 @@
+{
+    "contractName": "WavePortal",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/system/Documents/projects/my-wave-portal/contracts/WavePortal.sol\":\"WavePortal\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/system/Documents/projects/my-wave-portal/contracts/WavePortal.sol\":{\"keccak256\":\"0x8936493b26c93c5e93b25836a93ee7cd89cd09ab2af7daf33eafba253c32688d\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://7049485497e9ec6805bf1aa78b808c2d2f7c0c3fdd4ddfcf090d24cd95dbe41c\",\"dweb:/ipfs/Qmb3GVc99M3XKyVHYEaxeGjbMB3GaeiP9iRt2LdHY6YfnB\"]},\"/home/system/Documents/projects/my-wave-portal/node_modules/hardhat/console.sol\":{\"keccak256\":\"0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763\",\"dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b5061003c6040518060600160405280602a8152602001610203602a913961004160201b6100091760201c565b610101565b6100888160405160240161005591906100ac565b60408051601f198184030181529190526020810180516001600160e01b0390811663104c13eb60e21b1790915261008b16565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b600060208083528351808285015260005b818110156100d9578581018301518582016040015282016100bd565b818111156100eb576000604083870101525b50601f01601f1916929092016040019392505050565b60f48061010f6000396000f3fe6080604052600080fd5b604881604051602401601a9190606c565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052604b565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b600060208083528351808285015260005b81811015609757858101830151858201604001528201607d565b8181111560a8576000604083870101525b50601f01601f191692909201604001939250505056fea26469706673582212201c6b79c76c6cd35370f5d3fa75d1af55fcf428c48ff0415f18029018aa6ed9f564736f6c634300080b0033596f20596f2c2049276d206120636f6e747261637420616e642072656c61746976656c7920736d617274",
+    "deployedBytecode": "6080604052600080fd5b604881604051602401601a9190606c565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052604b565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b600060208083528351808285015260005b81811015609757858101830151858201604001528201607d565b8181111560a8576000604083870101525b50601f01601f191692909201604001939250505056fea26469706673582212201c6b79c76c6cd35370f5d3fa75d1af55fcf428c48ff0415f18029018aa6ed9f564736f6c634300080b0033",
+    "sourceMap": "155:116:0:-:0;;;181:88;;;;;;;;;;205:57;;;;;;;;;;;;;;;;;;:11;;;;;:57;;:::i;:::-;155:116;;5054:112:1;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;;;-1:-1:-1;;;5119:42:1;;;;5103:15;:59;:::i;:::-;5054:112;:::o;176:288::-;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;176:288;:::o;14:597:2:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:2;574:15;-1:-1:-1;;570:29:2;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:2:o;:::-;155:116:0;;;;;;",
+    "deployedSourceMap": "155:116:0:-:0;;;;;;5054:112:1;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;-1:-1:-1;;;5119:42:1;;;5103:15;:59::i;:::-;5054:112;:::o;176:288::-;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;176:288;:::o;14:597:2:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:2;574:15;-1:-1:-1;;570:29:2;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:2:o",
+    "sourcePath": "/home/system/Documents/projects/my-wave-portal/contracts/WavePortal.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.11+commit.d7f03943"
+    },
+    "ast": {
+        "absolutePath": "/home/system/Documents/projects/my-wave-portal/contracts/WavePortal.sol",
+        "exportedSymbols": {
+            "WavePortal": [
+                13
+            ],
+            "console": [
+                8077
+            ]
+        },
+        "id": 14,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:23:0"
+            },
+            {
+                "absolutePath": "/home/system/Documents/projects/my-wave-portal/node_modules/hardhat/console.sol",
+                "file": "/home/system/Documents/projects/my-wave-portal/node_modules/hardhat/console.sol",
+                "id": 2,
+                "nameLocation": "-1:-1:-1",
+                "nodeType": "ImportDirective",
+                "scope": 14,
+                "sourceUnit": 8078,
+                "src": "64:89:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "WavePortal",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "WavePortal",
+                "nameLocation": "164:10:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "195:74:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "596f20596f2c2049276d206120636f6e747261637420616e642072656c61746976656c7920736d617274",
+                                                "id": 8,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "217:44:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_3b8ef5f120c058ae0dd1aa72ac7240e724d0aa7fb2a9f6dac9bb46b7a4f9a7f0",
+                                                    "typeString": "literal_string \"Yo Yo, I'm a contract and relatively smart\""
+                                                },
+                                                "value": "Yo Yo, I'm a contract and relatively smart"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_3b8ef5f120c058ae0dd1aa72ac7240e724d0aa7fb2a9f6dac9bb46b7a4f9a7f0",
+                                                    "typeString": "literal_string \"Yo Yo, I'm a contract and relatively smart\""
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 5,
+                                                "name": "console",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 8077,
+                                                "src": "205:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_contract$_console_$8077_$",
+                                                    "typeString": "type(library console)"
+                                                }
+                                            },
+                                            "id": 7,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberName": "log",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 608,
+                                            "src": "205:11:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory) view"
+                                            }
+                                        },
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "205:57:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 10,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "205:57:0"
+                                }
+                            ]
+                        },
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "192:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "195:0:0"
+                        },
+                        "scope": 13,
+                        "src": "181:88:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "155:116:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:232:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "48800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        }
+    }
+}
